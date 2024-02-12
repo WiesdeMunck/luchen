@@ -7,6 +7,7 @@ function App() {
   const [count, setCount] = useState(0)
 
   return (
+	// comment for build
     <>
       <div>
         <a href="https://vitejs.dev" target="_blank">
