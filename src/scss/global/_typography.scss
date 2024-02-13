@@ -17,24 +17,24 @@
 	--fs-950: #{fluid(38px, 76px)};
 
 	// you might need multiple font families for different weights depending on the font
-	--ff-primary: 'Helvetica';
-	--ff-primary--light: 'Helvetica light';
-	--ff-primary--medium: 'Helvetica medium';
-	--ff-primary----semi-bold: 'Helvetica Semibold';
+	--ff-primary: 'Inter';
+	// --ff-primary--light: 'Helvetica light';
+	// --ff-primary--medium: 'Helvetica medium';
+	// --ff-primary----semi-bold: 'Helvetica Semibold';
 
 	// Secondary font family
-	--ff-secondary: 'Arial';
-	--ff-secondary--semi-bold: 'Arial semi bold';
-	--ff-secondary--medium: 'Arial medium';
+	// --ff-secondary: 'Arial';
+	// --ff-secondary--semi-bold: 'Arial semi bold';
+	// --ff-secondary--medium: 'Arial medium';
 }
 
 .ff-primary {
 	font-family: var(--ff-primary);
 }
 
-.ff-primary--bold {
-	font-family: var(--ff-primary--medium);
-}
+// .ff-primary--bold {
+// 	font-family: var(--ff-primary--medium);
+// }
 
 :where(body) {
 	color: red;
@@ -85,6 +85,6 @@ h5,
 
 :where(body, p, .p) {
 	line-height: 1.6;
-	font-family: var(--ff-secondary);
+	font-family: var(--ff-primary);
 	font-size: var(--fs-300);
 }
