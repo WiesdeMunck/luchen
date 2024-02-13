@@ -1,2 +1,15 @@
+// abstracts
+@use 'abstracts/_functions';
+@use 'abstracts/_index';
+@use 'abstracts/_mixins';
+
 // blocks
-@import './blocks/tmp.scss'
+@use 'blocks/_tmp';
+
+// global
+@use 'global/_reset';
+@use 'global/_root';
+@use 'global/_typography';
+
+// layout
+@use 'layout/_grid';

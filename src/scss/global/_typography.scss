@@ -1,0 +1,90 @@
+@use '../abstracts/' as *;
+
+// Setup base typography styles
+:root {
+	--fs-10: #{fluid(8px, 13px)};
+	--fs-30: #{fluid(12px, 16px)};
+	--fs-50: #{fluid(14px, 18px)};
+	--fs-100: 1.125rem; // 18px;
+	--fs-200: #{fluid(12px, 21px)};
+	--fs-300: #{fluid(14px, 21px)};
+	--fs-400: #{fluid(16px, 21px)};
+	--fs-500: #{fluid(16px, 28px)};
+	--fs-600: #{fluid(18px, 28px)};
+	--fs-700: #{fluid(18px, 30px)};
+	--fs-800: #{fluid(24px, 36px)};
+	--fs-900: #{fluid(30px, 52px)};
+	--fs-950: #{fluid(38px, 76px)};
+
+	// you might need multiple font families for different weights depending on the font
+	--ff-primary: 'Helvetica';
+	--ff-primary--light: 'Helvetica light';
+	--ff-primary--medium: 'Helvetica medium';
+	--ff-primary----semi-bold: 'Helvetica Semibold';
+
+	// Secondary font family
+	--ff-secondary: 'Arial';
+	--ff-secondary--semi-bold: 'Arial semi bold';
+	--ff-secondary--medium: 'Arial medium';
+}
+
+.ff-primary {
+	font-family: var(--ff-primary);
+}
+
+.ff-primary--bold {
+	font-family: var(--ff-primary--medium);
+}
+
+:where(body) {
+	color: var(--clr-neutral--100);
+}
+
+h1,
+.h1,
+h2,
+.h2,
+h3,
+.h3,
+h4,
+.h4,
+h5,
+.h5 {
+	text-wrap: balance;
+}
+
+:where(h1, .h1) {
+	line-height: 1.1;
+	font-family: var(--ff-primary);
+	font-size: var(--fs-950);
+}
+
+:where(h2, .h2) {
+	line-height: 1.1;
+	font-family: var(--ff-primary);
+	font-size: var(--fs-900);
+}
+
+:where(h3, .h3) {
+	line-height: 1.1;
+	font-family: var(--ff-primary);
+	font-size: var(--fs-800);
+}
+
+:where(h4, .h4) {
+	line-height: 1.1;
+	font-family: var(--ff-primary);
+	font-size: var(--fs-700);
+}
+
+:where(h5, .h5) {
+	line-height: 1.1;
+	font-family: var(--ff-primary);
+	font-size: var(--fs-300);
+}
+
+:where(body, p, .p) {
+	line-height: 1.6;
+	font-family: var(--ff-secondary);
+	font-size: var(--fs-300);
+}
