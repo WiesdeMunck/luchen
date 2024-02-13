@@ -1,7 +1,6 @@
 import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
-import './scss/main.scss'
 import { SpeedInsights } from "@vercel/speed-insights/react"
 import { Analytics } from '@vercel/analytics/react';
 
@@ -31,7 +30,7 @@ function App() {
       <p className="read-the-docs">
         Click on the Vite and React logos to learn more
       </p>
-		< Analytics />
+		<Analytics />
 		<SpeedInsights />
     </>
   )
