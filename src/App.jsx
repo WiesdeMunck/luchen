@@ -1,39 +1,25 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import { SpeedInsights } from "@vercel/speed-insights/react"
+import { useState } from 'react';
+import { SpeedInsights } from '@vercel/speed-insights/react';
 import { Analytics } from '@vercel/analytics/react';
+import NumberOne from './components/NumberOne';
+import NumberTwo from './components/NumberTwo';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
 function App() {
-  const [count, setCount] = useState(0)
 
-  return (
-    <>
-	 {/* Checking for deployment */}
-      <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is test {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-		<Analytics />
-		<SpeedInsights />
-    </>
-  )
+	return (
+		<Router>
+			<>
+				<h1>Home</h1>
+				<Routes>
+					<Route path="/" element={<NumberOne />} />
+					<Route path="/two" element={<NumberTwo />} />
+				</Routes>
+				<Analytics />
+				<SpeedInsights />
+			</>
+		</Router>
+	);
 }
 
-export default App
+export default App;
