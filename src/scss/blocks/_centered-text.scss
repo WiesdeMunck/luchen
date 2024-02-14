@@ -1,0 +1,19 @@
+@use '../abstracts' as *;
+
+.centered-text {
+	text-align: center;
+	display: grid;
+	justify-items: center;
+
+	&__title{
+
+	}
+	&__text{
+		margin-top: 0.5rem;
+	}
+
+	.btn {
+		margin-top: 1rem;
+	}
+}
+
