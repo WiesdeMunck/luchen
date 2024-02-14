@@ -1,16 +1,18 @@
 // abstracts
-@use 'abstracts/_functions';
-@use 'abstracts/_index';
-@use 'abstracts/_mixins';
+@forward 'abstracts/_functions';
+@forward 'abstracts/_index';
+@forward 'abstracts/_mixins';
 
 // blocks
-// @use 'blocks/_tmp';
+// @forward 'blocks/_tmp';
+@forward 'blocks/_header';
 
 // global
-@use 'global/_reset';
-@use 'global/_root';
-@use 'global/_typography';
-@use 'global/_fonts';
+@forward 'global/_reset';
+@forward 'global/_root';
+@forward 'global/_base';
+@forward 'global/_typography';
+@forward 'global/_fonts';
 
 // layout
-@use 'layout/_grid';
+@forward 'layout/_grid';
