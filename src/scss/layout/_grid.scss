@@ -14,11 +14,9 @@
 		grid-column: main;
 	}
 }
-// [main-start] min(var(--grid-main-max), var(--grid-main-width)) [main-end]
 .grid-item__small {
 	@include for-tablet-l-up {
 		max-width: 56.25rem;
 		margin: 0 auto;
 	}
 }
-// [main-start] min(99rem, calc(100% - 20px)) [main-end]

@@ -1,7 +1,7 @@
 @use '../abstracts' as *;
 
 .header {
-	height: 100px;
+	height: var(--nav-height);
 	max-height: 100px;
 	width: 100%;
 	background:#aaaaaa;

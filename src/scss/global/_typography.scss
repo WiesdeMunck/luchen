@@ -37,7 +37,7 @@
 // }
 
 :where(body) {
-	color: red;
+	color: var(--clr-neutral--900);
 }
 
 h1,
@@ -56,35 +56,36 @@ h5,
 :where(h1, .h1) {
 	line-height: 1.1;
 	font-family: var(--ff-primary);
-	font-size: var(--fs-950);
-}
-
-:where(h2, .h2) {
-	line-height: 1.1;
-	font-family: var(--ff-primary);
 	font-size: var(--fs-900);
+	font-weight: 700;
 }
 
-:where(h3, .h3) {
-	line-height: 1.1;
-	font-family: var(--ff-primary);
-	font-size: var(--fs-800);
-}
+// :where(h2, .h2) {
+// 	line-height: 1.1;
+// 	font-family: var(--ff-primary);
+// 	font-size: var(--fs-900);
+// }
 
-:where(h4, .h4) {
-	line-height: 1.1;
-	font-family: var(--ff-primary);
-	font-size: var(--fs-700);
-}
+// :where(h3, .h3) {
+// 	line-height: 1.1;
+// 	font-family: var(--ff-primary);
+// 	font-size: var(--fs-800);
+// }
 
-:where(h5, .h5) {
-	line-height: 1.1;
-	font-family: var(--ff-primary);
-	font-size: var(--fs-300);
-}
+// :where(h4, .h4) {
+// 	line-height: 1.1;
+// 	font-family: var(--ff-primary);
+// 	font-size: var(--fs-700);
+// }
+
+// :where(h5, .h5) {
+// 	line-height: 1.1;
+// 	font-family: var(--ff-primary);
+// 	font-size: var(--fs-300);
+// }
 
 :where(body, p, .p) {
 	line-height: 1.6;
 	font-family: var(--ff-primary);
-	font-size: var(--fs-300);
+	font-size: var(--fs-400);
 }

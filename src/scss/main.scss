@@ -4,8 +4,8 @@
 @forward 'abstracts/_mixins';
 
 // blocks
-// @forward 'blocks/_tmp';
 @forward 'blocks/_header';
+@forward 'blocks/_btn';
 @forward 'blocks/_hero-home';
 
 // global

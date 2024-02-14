@@ -20,8 +20,15 @@
 	// --clr-secondary-2--400: #00ff00; // green
 
 	// grid
-	--grid-main-max: 99.375rem;
+	// used to be 1590px / 99rem
+	--grid-main-max: 131.25rem;
 	--grid-margin: #{fluid(20px, 80px)};
 	--grid-main-width: calc(100% - (var(--grid-margin) * 2));
 	--grid-spacing-side: max(var(--grid-margin), (100vw - var(--grid-main-max)) / 2);
+
+	// navigation height
+	--nav-height: 4.375rem;
+	@include for-tablet-l-up {
+		--nav-height: 6.25rem;
+	}
 }

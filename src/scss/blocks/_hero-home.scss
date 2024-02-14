@@ -1,9 +1,126 @@
 @use '../abstracts' as *;
 
 .hero-home {
-margin-left: var(--grid-margin);
-background: #000;
-max-width: var(--grid-main-max);
+	margin: 0 auto;
+	padding: 0 var(--grid-margin);
+
+	max-width: var(--grid-main-max);
+	display: grid;
+	//  backup for firefox
+	height: calc(100vh - var(--nav-height));
+	height: calc(100svh - var(--nav-height));
+	grid-template-rows: 1fr auto;
+
+	@include for-tablet-l-up {
+		grid-template-rows: 1fr;
+		grid-template-columns: 1fr 1fr;
+		gap: 2rem;
+	}
+
+	&__content {
+
+		display: grid;
+		align-content: center;
+		justify-content: center;
+		gap: 1rem;
+		padding: 1.5rem 0 2rem;
+
+		@include for-tablet-l-up {
+			order: -1;
+		}
+
+		@include for-desktop-up {
+			padding-right: 3.5rem;
+		}
+
+
+	}
+
+	&__title {
+		text-align: center;
+
+		@include for-tablet-l-up {
+			text-align: left;
+
+		}
+
+		@include for-tablet-l-only {
+			font-size: 1rem ;
+
+		}
+	}
+
+	&__button-wrapper {
+		display: grid;
+		gap: 1rem;
+
+		@include for-tablet-l-up {
+			display: flex;
+			flex-wrap: wrap;
+		}
+	}
+
+	&__images-wrapper {
+		position: relative;
+		width: 100vw;
+		margin: 0 calc(var(--grid-margin) * -1);
+		background: pink;
+
+		@include for-tablet-l-up {
+			width: calc(100% + var(--grid-margin));
+			margin: 0 calc(var(--grid-margin) * -1) 0 0;
+		}
+	}
+
+	&__bg-image-wrapper {
+		position: absolute;
+		inset: 0;
+		overflow: hidden;
+	}
+
+	&__bg-image {
+		height: 100%;
+		width: 100%;
+		object-fit: cover;
+	}
+
+	&__fg-image-wrapper {
+		position: absolute;
+		inset: 0;
+		z-index: 2;
+		display: flex;
+		align-items: self-end;
+
+		@include for-tablet-l-up {
+					right: auto;
+		transform: translateX( -50%);
+		}
+
+
+
+
+	}
+
+	&__fg-image {
+		width: 100%;
+		height: 100%;
+		object-fit: contain;
+		max-height: 90%;
+		object-position: bottom;
+
+		@include for-tablet-l-up {
+			max-height: 40%;
+		}
+
+		@include for-desktop-up {
+			max-height: 60%;
+		}
+	}
+
+	.btn--secondary {
+		display: none;
+		@include for-tablet-l-up {
+			display: block;
+		}
+	}
 }
-
-
