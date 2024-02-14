@@ -15,6 +15,24 @@
 // Output:
 // font-size: clamp(1rem, 0.531rem + 1.88vw, 1.938rem);
 
+$default-min-bp: 400px;
+$default-max-bp: 1200px;
+
+@function round($number, $decimals: 0) {
+	$n: 1;
+	@if $decimals > 0 {
+		@for $i from 1 through $decimals {
+			$n: $n * 10;
+		}
+	}
+	@return math.div(math.round($number * $n), $n);
+}
+
+@function px-to-rem($px) {
+	$rems: math.div($px, 16px) * 1rem;
+	@return $rems;
+}
+
 @function fluid($min-size, $max-size, $min-breakpoint: $default-min-bp, $max-breakpoint: $default-max-bp, $unit: vw) {
 	$slope: math.div($max-size - $min-size, $max-breakpoint - $min-breakpoint);
 	$slope-to-unit: round($slope * 100, 2);
