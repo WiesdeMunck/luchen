@@ -1,5 +1,6 @@
 import React from 'react';
 import MainBtn from '../buttons/MainBtn';
+import HeaderOne from '../Typography/HeaderOne';
 
 export default function HeroHome() {
 	return (
@@ -13,8 +14,7 @@ export default function HeroHome() {
 				</div>
 			</div>
 			<div className="hero-home__content">
-				<h1 className="hero-home__title">Expert plastering, exceptional results</h1>
-				<h1 className="">Expert plastering, exceptional results</h1>
+				<HeaderOne classNames="hero-home__title" content="Expert plastering, exceptional results" />
 				<div className="hero-home__button-wrapper">
 					<MainBtn link="/two" content="Huur mij in!" />
 					<MainBtn classNames={'btn--secondary'} link="/two" content="contact me" />

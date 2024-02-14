@@ -45,7 +45,7 @@
 		}
 
 		@include for-tablet-l-only {
-			font-size: 1rem ;
+			font-size: 2.5rem ;
 
 		}
 	}
@@ -64,7 +64,6 @@
 		position: relative;
 		width: 100vw;
 		margin: 0 calc(var(--grid-margin) * -1);
-		background: pink;
 
 		@include for-tablet-l-up {
 			width: calc(100% + var(--grid-margin));
@@ -76,6 +75,10 @@
 		position: absolute;
 		inset: 0;
 		overflow: hidden;
+
+		@include for-tablet-l-up {
+			border-radius: 16px 0 0 0;
+		}
 	}
 
 	&__bg-image {
