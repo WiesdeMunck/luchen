@@ -56,7 +56,8 @@ h5,
 :where(h1, .h1) {
 	line-height: 1.1;
 	font-family: var(--ff-primary);
-	font-size: var(--fs-950);
+	font-size: var(--fs-900);
+	font-weight: 700;
 }
 
 :where(h2, .h2) {
@@ -86,5 +87,6 @@ h5,
 :where(body, p, .p) {
 	line-height: 1.6;
 	font-family: var(--ff-primary);
-	font-size: var(--fs-300);
+	font-size: var(--fs-400);
 }
+
