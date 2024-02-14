@@ -22,11 +22,10 @@
 		align-content: center;
 		justify-content: center;
 		gap: 1rem;
-		padding: 1.5rem 0 4rem;
+		padding: 1.5rem 0 2rem;
 
 		@include for-tablet-l-up {
 			order: -1;
-			padding: 1.5rem 0 2rem;
 		}
 
 		@include for-desktop-up {
