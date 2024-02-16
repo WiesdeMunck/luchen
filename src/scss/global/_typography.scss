@@ -11,7 +11,7 @@
 	--fs-400: #{fluid(18px, 20px)}; // p
 	// --fs-500: #{fluid(16px, 28px)};
 	// --fs-600: #{fluid(18px, 28px)};
-	// --fs-700: #{fluid(18px, 30px)};
+	--fs-700: #{fluid(20px, 24px)}; // h3
 	--fs-800: #{fluid(24px, 40px)}; // h2
 	--fs-900: #{fluid(30px, 52px)}; // h1
 	// --fs-950: #{fluid(38px, 76px)};
@@ -67,11 +67,12 @@ h5,
 	font-weight: 700;
 }
 
-// :where(h3, .h3) {
-// 	line-height: 1.1;
-// 	font-family: var(--ff-primary);
-// 	font-size: var(--fs-800);
-// }
+:where(h3, .h3) {
+	line-height: 1.1;
+	font-family: var(--ff-primary);
+	font-size: var(--fs-700);
+	font-weight: 700;
+}
 
 // :where(h4, .h4) {
 // 	line-height: 1.1;

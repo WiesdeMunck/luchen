@@ -4,9 +4,10 @@
 	display: grid;
 	grid-template-columns: 1fr 1fr;
 	gap: 1.5rem;
+	justify-items: center;
 
 	@include for-tablet-l-up {
-		grid-template-columns: 1fr 1fr 1fr 1fr;
+		grid-template-columns: repeat(auto-fill, minmax(min(100%, 11.625rem), 1fr));
 	}
 
 	@include for-desktop-up {
@@ -19,7 +20,7 @@
 		overflow: hidden;
 		aspect-ratio: 11/16;
 		border-radius: 0.75rem;
-			&:last-of-type {
+			&:nth-child(5) {
 				display: none;
 				@include for-desktop-up {
 					display: block;

@@ -1,0 +1,12 @@
+@use '../abstracts' as *;
+
+
+section:has(.preview-column-wrapper) {
+	background: var(--clr-primary--400);
+}
+
+.preview-column-wrapper {
+	display: grid;
+	padding: 80px 0;
+	gap: 1.5rem;
+}
