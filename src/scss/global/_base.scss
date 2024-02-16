@@ -7,7 +7,7 @@ html {
 main {
 	display: grid;
 	> * + * {
-		margin-top: 2.5rem;
+		margin-top: 5rem;
 
 		@include for-tablet-l-up {
 			margin-top: 5rem;
