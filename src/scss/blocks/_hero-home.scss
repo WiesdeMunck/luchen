@@ -3,12 +3,12 @@
 .hero-home {
 	margin: 0 auto;
 	padding: 0 var(--grid-margin);
-
 	max-width: var(--grid-main-max);
 	display: grid;
 	//  backup for firefox
 	height: calc(100vh - var(--nav-height));
 	height: calc(100svh - var(--nav-height));
+	max-height: 1000px;
 	grid-template-rows: 1fr auto;
 
 	@include for-tablet-l-up {

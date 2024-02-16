@@ -10,7 +10,19 @@ main {
 		margin-top: 5rem;
 
 		@include for-tablet-l-up {
-			margin-top: 5rem;
+			margin-top: 0rem;
 		}
 	}
+
+	section:not(.hero-home) {
+		@include for-tablet-l-up {
+		min-height: 90vh;
+		max-height: 1000px;
+		align-items: center;
+		> * {
+			height: fit-content;
+
+		}
+	}
+}
 }

@@ -3,6 +3,7 @@ import React from "react";
 import HeroHome from "../components/HeroHome/HeroHome";
 import ViewProjects from "../components/ViewProjects/ViewProjects";
 import PreviewColumns from "../components/PreviewColumns/PreviewColumns";
+import TextImgSection from "../components/TextImgSection/TextImgSection";
 
 export default function HomePage() {
 	return (
@@ -10,6 +11,8 @@ export default function HomePage() {
 			<HeroHome />
 			<ViewProjects />
 			<PreviewColumns />
+			<TextImgSection />
+
 		</>
 	)
 }

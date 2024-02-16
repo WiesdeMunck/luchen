@@ -6,6 +6,7 @@ import PreviewColumn from './PreviewColumn';
 export default function PreviewColumns() {
 	return (
 		<section className="grid-item ">
+			<div>
 			<CenteredText />
 			<div className="preview-column-wrapper">
 
@@ -18,7 +19,7 @@ export default function PreviewColumns() {
 				})}
 			{/* Todo Components pictured centered */}
 			</div>
-
+			</div>
 		</section>
 	);
 }

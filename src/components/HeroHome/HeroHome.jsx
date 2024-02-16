@@ -4,7 +4,7 @@ import HeaderOne from '../Typography/HeaderOne';
 
 export default function HeroHome() {
 	return (
-		<section className="hero-home">
+	<section className="hero-home">
 						<div className="hero-home__images-wrapper">
 				<div className="hero-home__fg-image-wrapper">
 					<img src="/img/self-portrait.webp" alt="" className="hero-home__fg-image" />

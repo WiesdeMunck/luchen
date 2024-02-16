@@ -5,14 +5,10 @@
 .preview-column {
 background: var(--clr-neutral--100);
 padding: 20px;
-border-radius: 12px;
+border-radius: 16px;
 
 @include for-tablet-l-up {
 	padding: 40px;
-}
-
-&__title{
-
 }
 
 &__icon {
