@@ -28,6 +28,7 @@ export default function TextImgSection() {
 						src="/img/home-being-plasterd.webp"
 						alt=""
 						className="text-img-section__img"
+						loading="lazy"
 					/>
 				</div>
 			</div>
