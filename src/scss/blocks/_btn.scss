@@ -29,3 +29,10 @@
 		background: var(--clr-primary--500);
 	}
 }
+
+.btn.btn--inverted {
+	background: var(--clr-primary--100);
+	&:hover, &:active {
+		background: var(--clr-primary--400);
+	}
+}

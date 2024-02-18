@@ -1,0 +1,36 @@
+@use '../abstracts' as *;
+
+section.grid-item:has(.cta-section) {
+	min-height: auto;
+}
+
+section:has(.cta-section) {
+	min-height: auto;
+	padding: 80px  0 ;
+	background: var(--clr-primary--500);
+
+	@include for-tablet-l-up {
+		padding: 120px 0;
+	}
+}
+
+.cta-section {
+	text-align: center;
+	margin: 0 auto;
+	display: grid;
+	gap: 1rem;
+	justify-items: center;
+
+	@include for-tablet-l-up {
+		gap: 1rem;
+	}
+
+
+	&__title{
+
+	}
+	&__text{
+
+	}
+
+}

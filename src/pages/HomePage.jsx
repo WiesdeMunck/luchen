@@ -6,6 +6,7 @@ import PreviewColumns from "../components/PreviewColumns/PreviewColumns";
 import TextImgSection from "../components/TextImgSection/TextImgSection";
 import TextOnlySection from "../components/TextOnlySection/TextOnlySection";
 import ReviewWrapper from "../components/Reviews/ReviewWrapper";
+import CtaSection from "../components/CtaSection/CtaSection";
 
 export default function HomePage() {
 	return (
@@ -16,6 +17,7 @@ export default function HomePage() {
 			<TextImgSection />
 			<ReviewWrapper />
 			<TextOnlySection />
+			<CtaSection />
 
 
 		</>

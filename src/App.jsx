@@ -5,6 +5,7 @@ import NumberTwo from './components/NumberTwo';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Navigation from './components/Header/Header';
 import HomePage from './pages/HomePage';
+import Footer from './components/Footer/Footer';
 
 function App() {
 	return (
@@ -18,9 +19,7 @@ function App() {
 			</main>
 			<Analytics />
 			<SpeedInsights />
-			<footer>
-
-			</footer>
+		<Footer />
 		</Router>
 	);
 }
