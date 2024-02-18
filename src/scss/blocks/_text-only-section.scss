@@ -1,0 +1,28 @@
+@use '../abstracts' as *;
+
+  section.grid-item:has(.text-only-section) {
+	min-height: auto;
+}
+
+
+.text-only-section {
+	padding: 40px 0;
+	text-align: center;
+	display: grid;
+	text-align: left;
+	max-width: 65ch;
+	margin: auto;
+
+
+	&__title{
+		text-align: left;
+
+	}
+	&__text{
+		text-align: left;
+
+		margin-top: 1rem;
+	}
+
+}
+

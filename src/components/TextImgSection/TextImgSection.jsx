@@ -5,9 +5,9 @@ export default function TextImgSection() {
 		<section className="grid-item">
 			<div className="text-img-section">
 				<div className="text-img-section__content">
-					<h1 className="text-img-section__title">
+					<h2 className="text-img-section__title">
 						Lorem ipsum dolor sit amet.
-					</h1>
+					</h2>
 					<p className="text-img-section__text">
 						Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum
 						odit, rem nobis voluptate quasi porro est earum, temporibus
