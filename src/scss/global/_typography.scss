@@ -41,6 +41,20 @@
 	font-weight: 500;
 }
 
+a {
+	color: var(--clr-neutral--900);
+	text-decoration: none;
+}
+
+a p, footer a {
+	box-shadow: 0 0.1em 0 0 var(--clr-neutral--900);
+
+
+	&:hover {
+		box-shadow: 0 0.2em 0 0 var(--clr-neutral--900);
+	}
+}
+
 h1,
 .h1,
 h2,
@@ -92,3 +106,5 @@ h5,
 	font-family: var(--ff-primary);
 	font-size: var(--fs-400);
 }
+
+
