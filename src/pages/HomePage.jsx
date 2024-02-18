@@ -5,6 +5,7 @@ import ViewProjects from "../components/ViewProjects/ViewProjects";
 import PreviewColumns from "../components/PreviewColumns/PreviewColumns";
 import TextImgSection from "../components/TextImgSection/TextImgSection";
 import TextOnlySection from "../components/TextOnlySection/TextOnlySection";
+import ReviewWrapper from "../components/Reviews/ReviewWrapper";
 
 export default function HomePage() {
 	return (
@@ -13,6 +14,7 @@ export default function HomePage() {
 			<ViewProjects />
 			<PreviewColumns />
 			<TextImgSection />
+			<ReviewWrapper />
 			<TextOnlySection />
 
 

@@ -1,0 +1,35 @@
+@use '../abstracts' as *;
+
+
+section:has(.review-wrapper) {
+	padding: 80px 0 ;
+	background: var(--clr-primary--400);
+
+
+	// @include for-tablet-l-up {
+	// gap: 2rem;
+	// }
+
+}
+
+.review-wrapper  {
+	display: grid;
+	gap: 2rem;
+
+	@include for-tablet-l-up {
+		gap: 4rem;
+	}
+
+	&__cards {
+		display: grid;
+		gap: 1rem;
+		@include for-tablet-l-up {
+			grid-template-columns: repeat(2, 1fr);
+			gap: 4rem;
+		}
+	}
+
+	&__svg-wrapper {
+		margin: auto;
+	}
+}

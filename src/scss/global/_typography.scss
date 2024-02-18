@@ -7,7 +7,7 @@
 	// --fs-50: #{fluid(14px, 18px)};
 	// --fs-100: 1.125rem; // 18px;
 	// --fs-200: #{fluid(12px, 21px)};
-	// --fs-300: #{fluid(14px, 21px)};
+	--fs-300: #{fluid(16px, 18px)};
 	--fs-400: #{fluid(18px, 20px)}; // p
 	// --fs-500: #{fluid(16px, 28px)};
 	// --fs-600: #{fluid(18px, 28px)};
@@ -38,6 +38,7 @@
 
 :where(body) {
 	color: var(--clr-neutral--900);
+	font-weight: 500;
 }
 
 h1,
@@ -57,21 +58,21 @@ h5,
 	line-height: 1.1;
 	font-family: var(--ff-primary);
 	font-size: var(--fs-900);
-	font-weight: 700;
+	font-weight: 800;
 }
 
 :where(h2, .h2) {
 	line-height: 1.1;
 	font-family: var(--ff-primary);
 	font-size: var(--fs-800);
-	font-weight: 700;
+	font-weight: 800;
 }
 
 :where(h3, .h3) {
 	line-height: 1.1;
 	font-family: var(--ff-primary);
 	font-size: var(--fs-700);
-	font-weight: 700;
+	font-weight: 800;
 }
 
 // :where(h4, .h4) {
