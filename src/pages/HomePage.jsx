@@ -19,7 +19,7 @@ export default function HomePage() {
 			<TextOnlySection />
 			<CtaSection />
 
-
+		{/* section */}
 		</>
 	)
 }
