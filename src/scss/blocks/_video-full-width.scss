@@ -1,0 +1,40 @@
+@use '../abstracts' as *;
+
+.video-full-width {
+	text-align: center;
+	display: grid;
+	justify-items: center;
+	aspect-ratio: 16 / 9;
+	background: #000;
+	border-radius: 16px;
+	overflow: hidden;
+	position: relative;
+
+	&__img {
+		position: absolute;
+		inset: 0;
+		z-index: 2;
+		width: 100%;
+		height: 100%;
+		object-fit: cover;
+		cursor: pointer;
+	}
+
+	&__iframe-wrapper {
+		position: absolute;
+		inset: 0;
+		background: #000;
+		z-index: 1;
+		width: 100%;
+		height: 100%;
+
+	}
+
+	&__iframe {
+		background: pink;
+		width: 100%;
+		height: 100%;
+		object-fit: cover;
+		object-position: center;
+	}
+}
