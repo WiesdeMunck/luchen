@@ -8,7 +8,6 @@ export default function Header() {
 
 	function handleClick() {
 		setToggleMenu(!toggleMenu);
-		console.log('click');
 	}
 
 	return (
