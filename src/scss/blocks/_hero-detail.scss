@@ -5,11 +5,16 @@
 	max-height: 1000px;
 	grid-template-rows: calc(50vh - var(--nav-height)) auto;
 	grid-template-rows: calc(50svh - var(--nav-height)) auto;
+	padding:  0 0 45px 0;
+
+@include for-tablet-l-up {
+	padding: 0 0 90px 0;
+}
 
 
 @include for-tablet-l-up {
 	padding: 90px 0;
-	gap: 3rem;
+	gap: 5rem;
 	grid-template-columns: 1fr 1fr;
 	grid-template-rows: none;
 }

@@ -3,6 +3,12 @@
 .text-img-section{
 display: grid;
 gap: 1.5rem;
+padding: 60px 0;
+
+@include for-tablet-l-up {
+	padding: 90px 0;
+}
+
 
 @include for-tablet-l-up {
 	grid-template-columns: 1fr 1fr;

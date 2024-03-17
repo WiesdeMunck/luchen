@@ -1,7 +1,7 @@
 @use '../abstracts' as *;
 
 html {
-	background:var(--clr-primary--100);
+	background: var(--clr-primary--100);
 }
 
 main {
@@ -16,13 +16,11 @@ main {
 
 	section:not(.hero-home, .--no-full-height) {
 		@include for-tablet-l-up {
-		min-height: calc(100vh - 1.5rem);
-		max-height: 1000px;
-		align-items: center;
-		> * {
-			height: fit-content;
-
+			min-height: calc(100vh - 1.5rem);
+			align-items: center;
+			> * {
+				height: fit-content;
+			}
 		}
 	}
-}
 }
