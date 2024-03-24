@@ -1,0 +1,14 @@
+@use '../abstracts' as *;
+
+	.general-form {
+		display: grid;
+
+	&__form-btn {
+		margin-top: 2rem;
+		width: 100%;
+
+		@include for-tablet-l-up {
+			margin-top: 2.5rem;
+		}
+	}
+}

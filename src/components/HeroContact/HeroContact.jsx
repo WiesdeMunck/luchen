@@ -1,4 +1,5 @@
 import React from 'react';
+import ContactForm from '../Forms/ContactForm';
 
 
 export default function HeroContact() {
@@ -26,18 +27,7 @@ export default function HeroContact() {
 							</li>
 						</ul>
 					</div>
-					<form action="" className="hero-contact__form">
-						<label htmlFor="name">Naam</label>
-						<input type="text" />
-						<label htmlFor="email">Email</label>
-						<input type="email" />
-						<label htmlFor="message">Bericht</label>
-						<textarea
-							name="message"
-							id="message"
-							rows="10"
-						></textarea>
-					</form>
+					<ContactForm />
 				</div>
 			</div>
 		</section>

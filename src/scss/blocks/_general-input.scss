@@ -1,0 +1,41 @@
+@use '../abstracts' as *;
+
+.general-input {
+	margin-top: 2rem;
+	width: 100%;
+
+	@include for-tablet-l-up {
+		margin-top: 2.5rem;
+	}
+}
+
+.general-input__input {
+	border-radius: 0.5rem;
+	padding: 0.5rem 0.75rem;
+	margin-top: 0.5rem;
+	border: 2px solid var(--clr-neutral--600);
+	background: transparent;
+
+	&::placeholder {
+		color: var(--clr-neutral--600);
+	}
+}
+
+.general-input__input--text-area {
+	min-height: 12rem;
+}
+
+
+
+.general-input__label {
+	margin-top: 1.5rem;
+	font-weight: 800;
+
+	@include for-tablet-l-up {
+		margin-top: 2em;
+	}
+
+	&:first-child {
+		margin-top: 0rem;
+	}
+}
