@@ -36,12 +36,12 @@ export default function Navigation({ toggleMenu, handleClick }) {
 					</Link>
 				</li>
 				<li className="navigation__item">
-					<Link className="navigation__link" to="/projecten/projectOne">
+					<Link className="navigation__link" to="/projecten/detialPage">
 						Projecten
 					</Link>
 				</li>
 				<li className="navigation__item">
-					<Link className="navigation__link" to="/">
+					<Link className="navigation__link" to="/contact">
 						Contact
 					</Link>
 				</li>
