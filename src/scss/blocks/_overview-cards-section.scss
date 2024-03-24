@@ -1,0 +1,24 @@
+@use '../abstracts' as *;
+
+.overview-cards-section {
+	display: grid;
+	padding: 80px 0;
+
+	&__content-wrapper {
+	}
+	&__title {
+		margin-bottom: 2rem;
+	}
+	&__cards-wrapper {
+		display: grid;
+		column-gap: 2rem;
+		row-gap: 5rem;
+		// 4 because gap wil never the 4th becasue the never will be enough room
+		grid-template-columns: repeat(auto-fill, minmax(min(100%, calc( var(--grid-main-max) / 6) ), 1fr));
+
+		@include for-desktop-up {
+			grid-template-columns: repeat(auto-fill, minmax(min(100%, calc( var(--grid-main-max) / 5) ), 1fr));
+		}
+
+	}
+}

@@ -1,0 +1,45 @@
+@use '../abstracts' as *;
+
+.contact-info {
+	padding: 80px 0;
+	display: grid;
+	gap: 4rem;
+
+	@include for-tablet-l-up {
+		gap: var(--grid-margin);
+		grid-template-columns: 40% 1fr;
+	}
+
+	&__iframe-wrapper {
+		border-radius: 16px;
+		overflow: hidden;
+		aspect-ratio: 1;
+
+		@include for-tablet-l-up {
+			aspect-ratio: auto;
+		}
+	}
+	&__iframe {
+	}
+
+	&__lists-wrapper {
+		display: grid;
+		gap: 3rem;
+	}
+	&__info-list {
+	}
+	&__info-title {
+	}
+	&__info-item {
+		list-style-type: none;
+	}
+	&__locations-list {
+		display: grid;
+		gap: 1rem;
+	}
+	&__locations-title {
+	}
+	&__locations-item {
+		margin-left: 20px;
+	}
+}

@@ -7,6 +7,7 @@ import HomePage from './pages/HomePage';
 import Footer from './components/Footer/Footer';
 import DetailPage from './pages/DetailPage';
 import ContactPage from './pages/ContactPage';
+import ProjectOverviewPage from './pages/ProjectOverviewPage';
 
 function App() {
 	return (
@@ -17,7 +18,10 @@ function App() {
 					<Route path="/" element={<HomePage />} />
 					{/* <Route path="/" element={<HomePage />} /> */}
 					{/* TODO: Give the correct name for each project */}
-					<Route path="/detialPage" element={<DetailPage />} />
+					<Route path="/particulieren" element={<DetailPage />} />
+					<Route path="/bedrijven" element={<DetailPage />} />
+					<Route path="/projecten" element={<ProjectOverviewPage />} />
+					<Route path="/detailPage" element={<DetailPage />} />
 					<Route path="/contact" element={<ContactPage />} />
 				</Routes>
 			</main>

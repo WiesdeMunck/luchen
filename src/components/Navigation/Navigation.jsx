@@ -26,23 +26,28 @@ export default function Navigation({ toggleMenu, handleClick }) {
 					</Link>
 				</li>
 				<li className="navigation__item">
-					<Link className="navigation__link" to="/">
+					<Link className="navigation__link" to="/particulieren">
 						Particulieren
 					</Link>
 				</li>
 				<li className="navigation__item">
-					<Link className="navigation__link" to="/">
+					<Link className="navigation__link" to="/bedrijven">
 						Bedrijven
 					</Link>
 				</li>
 				<li className="navigation__item">
-					<Link className="navigation__link" to="/projecten/detialPage">
+					<Link className="navigation__link" to="/projecten">
 						Projecten
 					</Link>
 				</li>
 				<li className="navigation__item">
 					<Link className="navigation__link" to="/contact">
 						Contact
+					</Link>
+				</li>
+				<li className="navigation__item">
+					<Link className="navigation__link" to="/blog">
+						Blog
 					</Link>
 				</li>
 			</ul>
