@@ -1,7 +1,7 @@
 @use '../abstracts' as *;
 
 .contact-info {
-	padding: 80px 0;
+	padding: 5rem 0;
 	display: grid;
 	gap: 4rem;
 
@@ -11,7 +11,7 @@
 	}
 
 	&__iframe-wrapper {
-		border-radius: 16px;
+		border-radius: 1rem;
 		overflow: hidden;
 		aspect-ratio: 1;
 
@@ -40,6 +40,6 @@
 	&__locations-title {
 	}
 	&__locations-item {
-		margin-left: 20px;
+		margin-left: 1.25rem;
 	}
 }

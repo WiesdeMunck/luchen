@@ -35,11 +35,11 @@ section:has(.review-wrapper) {
 &__img-wrapper{
 	aspect-ratio: 1/1;
 	overflow: hidden;
-	height: 55px;
-	border-radius: 9999px;
+	height: 3.4375rem;
+	border-radius: 624.9375rem;
 
 	@include for-tablet-l-up {
-		height: 75px;
+		height: 4.6875rem;
 	}
 }
 

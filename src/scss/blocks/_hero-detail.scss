@@ -2,18 +2,18 @@
 
 .hero-detail{
 	display: grid;
-	max-height: 1000px;
+	max-height: 62.5rem;
 	grid-template-rows: calc(50vh - var(--nav-height)) auto;
 	grid-template-rows: calc(50svh - var(--nav-height)) auto;
-	padding:  0 0 45px 0;
+	padding:  0 0 2.8125rem 0;
 
 @include for-tablet-l-up {
-	padding: 0 0 90px 0;
+	padding: 0 0 5.625rem 0;
 }
 
 
 @include for-tablet-l-up {
-	padding: 90px 0;
+	padding: 5.625rem 0;
 	gap: 5rem;
 	grid-template-columns: 1fr 1fr;
 	grid-template-rows: none;

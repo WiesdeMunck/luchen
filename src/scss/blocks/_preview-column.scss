@@ -4,11 +4,11 @@
 
 .preview-column {
 background: var(--clr-neutral--100);
-padding: 20px;
-border-radius: 16px;
+padding: 1.25rem;
+border-radius: 1rem;
 
 @include for-tablet-l-up {
-	padding: 40px;
+	padding: 2.5rem;
 }
 
 &__icon {

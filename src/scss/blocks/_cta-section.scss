@@ -6,11 +6,11 @@ section.grid-item:has(.cta-section) {
 
 section:has(.cta-section) {
 	min-height: auto;
-	padding: 80px  0 ;
+	padding: 5rem  0 ;
 	background: var(--clr-primary--500);
 
 	@include for-tablet-l-up {
-		padding: 120px 0;
+		padding: 7.5rem 0;
 	}
 }
 

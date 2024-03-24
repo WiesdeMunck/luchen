@@ -8,7 +8,7 @@
 	//  backup for firefox
 	height: calc(100vh - var(--nav-height));
 	height: calc(100svh - var(--nav-height));
-	max-height: 1000px;
+	max-height: 62.5rem;
 	grid-template-rows: 1fr auto;
 
 	@include for-tablet-l-up {
@@ -72,7 +72,7 @@
 		overflow: hidden;
 
 		@include for-tablet-l-up {
-			border-radius: 16px 0 0 0;
+			border-radius: 1rem 0 0 0;
 		}
 	}
 
