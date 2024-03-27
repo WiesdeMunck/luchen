@@ -24,6 +24,7 @@ export default function Navigation({ toggleMenu, handleClick }) {
         <FontAwesomeIcon onClick={handleClick} tabIndex={'0'} className='navigation__xmark' icon={['fas', 'xmark']} />
       </div>
 
+		<div className='navigation__list-wrapper'>
       <ul className="navigation__list">
         {navLinks.map((link, index) => (
           <li key={index} className="navigation__item">
@@ -36,6 +37,7 @@ export default function Navigation({ toggleMenu, handleClick }) {
           </li>
         ))}
       </ul>
+		</div>
     </nav>
   );
 }
