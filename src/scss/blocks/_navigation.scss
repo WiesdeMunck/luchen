@@ -81,7 +81,7 @@
 	&__list {
 		height: fit-content;
 		display: grid;
-		gap: 1rem;
+		// gap: 1rem;
 		background: var(--clr-primary--100);
 		// overflow: hidden;
 
@@ -103,12 +103,16 @@
 
 	&__link {
 		color: var(--clr-neutral-900);
-		padding: 0.75rem 1rem;
+		padding: 1.5rem 1rem;
 		border-radius: 0.5rem;
 		font-weight: 500;
 		text-decoration: none;
 		transition: background 0.3s ease;
 		display: block;
+
+		@include for-tablet-l-up {
+			padding: 0.75rem 1rem;
+		}
 
 		&:hover {
 			background: var(--clr-primary--300);

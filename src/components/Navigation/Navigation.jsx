@@ -21,7 +21,7 @@ export default function Navigation({ toggleMenu, handleClick }) {
           <img className="navigation__logo" src="/img/logo.webp" alt="" />
         </NavLink>
 
-        <FontAwesomeIcon onClick={handleClick} tabIndex={'0'} className='navigation__xmark' icon={['fas', 'xmark']} />
+        {/* <FontAwesomeIcon onClick={handleClick} tabIndex={'0'} className='navigation__xmark' icon={['fas', 'xmark']} /> */}
       </div>
 
 		<div className='navigation__list-wrapper'>
