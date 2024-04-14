@@ -1,0 +1,10 @@
+[
+	{
+		 "componentName": "HeroDetail",
+		 "props": {
+			  "title": "Beton ciré",
+			  "img": "/img/beton-cire.webp",
+			  "alt": "beton cire geeft u een verfijnde uitstraling"
+		 }
+	}
+]

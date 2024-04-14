@@ -9,8 +9,8 @@ export default function OverviewCardsSection({jsonData}) {
 				<h2 className="overview-cards-section__title">Projecten</h2>
 				</div>
 				<div className='overview-cards-section__cards-wrapper' >
-					{jsonData.map((data, key) => {
-						return <OverviewCard key={key} title={data.title} alt={data.alt} image={data.img}  />;
+					{jsonData.map((data, id) => {
+						return <OverviewCard id={id} link={data.link} title={data.title} alt={data.alt} image={data.img}  />;
 					})}
 				</div>
 				{/* Maybe some seo text */}

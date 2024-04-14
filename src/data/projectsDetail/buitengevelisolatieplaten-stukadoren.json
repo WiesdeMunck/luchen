@@ -1,0 +1,33 @@
+[
+	{
+		 "componentName": "HeroDetail",
+		 "props": {
+			  "title": "Beton ciré",
+			  "img": "/img/beton-cire.webp",
+			  "alt": "beton cire geeft u een verfijnde uitstraling"
+		 }
+	},
+	{
+		 "componentName": "TextImgSection",
+		 "props": {
+			  "text": "Some text for the TextImgSection component",
+			  "img": "/img/text-img-section.webp"
+		 }
+	},
+	{
+		 "componentName": "GalleryWithPopUp",
+		 "props": {
+			  "images": [
+					"/img/gallery1.webp",
+					"/img/gallery2.webp",
+					"/img/gallery3.webp"
+			  ]
+		 }
+	},
+	{
+		 "componentName": "CtaSection",
+		 "props": {
+			  "ctaText": "Some call to action text"
+		 }
+	}
+]

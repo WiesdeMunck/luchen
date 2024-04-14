@@ -23,7 +23,6 @@ function App() {
 					<Route path="/contact" element={<ContactPage />} />
 					<Route path="/project" element={<ProjectOverviewPage />} />
 					<Route path="/project/:id" element={<DetailPage />} />
-
 				</Routes>
 			</main>
 			<Analytics />
