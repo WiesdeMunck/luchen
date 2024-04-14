@@ -10,25 +10,27 @@ import ContactPage from './pages/ContactPage';
 import ProjectOverviewPage from './pages/ProjectOverviewPage';
 
 function App() {
-  return (
-    <Router>
-      <Navigation />
-      <main>
-        <Routes>
-          <Route path="/" element={<HomePage />} />
-          <Route path="/particulieren" element={<DetailPage />} />
-          <Route path="/bedrijven" element={<DetailPage />} />
-          <Route path="/projecten" element={<ProjectOverviewPage />} />
-          <Route path="/detailPage" element={<DetailPage />} />
-          <Route path="/contact" element={<ContactPage />} />
-          <Route path="/blog" element={<ProjectOverviewPage />} />
-        </Routes>
-      </main>
-      <Analytics />
-      <SpeedInsights />
-      <Footer />
-    </Router>
-  );
+	return (
+		<Router>
+			<Navigation />
+			<main>
+				<Routes>
+					<Route path="/" element={<HomePage />} />
+					<Route path="/particulieren" element={<DetailPage />} />
+					<Route path="/bedrijven" element={<DetailPage />} />
+					<Route path="/projecten" element={<ProjectOverviewPage />} />
+					<Route path="/detailPage" element={<DetailPage />} />
+					<Route path="/contact" element={<ContactPage />} />
+					<Route path="/project" element={<ProjectOverviewPage />} />
+					<Route path="/project/:id" element={<DetailPage />} />
+
+				</Routes>
+			</main>
+			<Analytics />
+			<SpeedInsights />
+			<Footer />
+		</Router>
+	);
 }
 
 export default App;

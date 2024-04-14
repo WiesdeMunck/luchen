@@ -1,0 +1,40 @@
+[
+	{
+		"id": 1,
+		"type": "text",
+		"title": " Beton ciré",
+		"img": "/img/beton-cire.webp",
+		"alt": "beton cire geeft u een verfijnde uitstraling"
+	},
+	{
+		"id": 2,
+		"type": "text",
+		"title": "Buitengevelisolatieplaten stukadoren",
+		"img": "/img/buiten-isolatie.webp",
+		"alt": "Buitengevelisolatieplaten stukadoren in Zeewolde"
+	},
+	{
+		"id": 3,
+		"type": "text",
+		"title": "Wanden uitvlakken",
+		"img": "/img/wanden-uitvlakken.webp",
+		"alt": "Wanden uitvlakken met een speciale specie"
+	},
+	{
+		"id": 4,
+		"type": "text",
+		"title": "Latex spuiten",
+		"img": "/img/latex-spuiten.webp",
+		"alt": "Latex spuiten op wanden en plafonds"
+	},
+	{
+		"id": 5,
+		"type": "text",
+		"title": "Het volgende project",
+		"img": "/img/dummy-img.webp",
+		"alt": "afbeelding voor opvulling"
+	}
+
+
+
+]

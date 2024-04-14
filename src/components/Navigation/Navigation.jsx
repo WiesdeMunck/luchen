@@ -8,7 +8,7 @@ const navLinks = [
   { name: 'Bedrijven', path: '/bedrijven' },
   { name: 'Projecten', path: '/projecten' },
   { name: 'Contact', path: '/contact' },
-  { name: 'Blog', path: '/blog' },
+  { name: 'Blog', path: '/project' },
 ];
 
 export default function Navigation({ toggleMenu, handleClick }) {

@@ -1,7 +1,7 @@
 import React from 'react';
 import OverviewCard from './OverviewCard';
 
-export default function OverviewCardsSection() {
+export default function OverviewCardsSection({jsonData}) {
 	return (
 		<section className="grid-item --no-full-height --bg-clr-primary--300">
 			<div className="overview-cards-section">
@@ -9,8 +9,8 @@ export default function OverviewCardsSection() {
 				<h2 className="overview-cards-section__title">Projecten</h2>
 				</div>
 				<div className='overview-cards-section__cards-wrapper' >
-					{[...Array(8)].map(() => {
-						return <OverviewCard />;
+					{jsonData.map((data, key) => {
+						return <OverviewCard key={key} title={data.title} alt={data.alt} image={data.img}  />;
 					})}
 				</div>
 				{/* Maybe some seo text */}

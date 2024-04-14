@@ -1,18 +1,17 @@
 import React from 'react';
+import {Link} from 'react-router-dom';
 
-export default function OverviewCard() {
+export default function OverviewCard({title, image, alt, key}) {
 	return (
 
-			<article className="overview-card">
-					<a className='overview-card__wrapper' href="#">
-						<div className="overview-card__img-wrapper"><img src="/img/home-being-plasterd.webp" alt="" className="overview-card__img" /></div>
+			<article key={key} className="overview-card">
+					<Link className='overview-card__wrapper' href={`project/${key}`}>
+						<div className="overview-card__img-wrapper"><img src={image} alt={alt} className="overview-card__img" /></div>
 						<div className="overview-card__content">
-							<h2 className="overview-card__title">Projecasdasdat Title</h2>
+							<h2 className="overview-card__title">{title}</h2>
 							<span className='overview-card__cta' >Lees meer</span>
-
 						</div>
-
-					</a>
+					</Link>
 			</article>
 
 	);
