@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from 'react';
-import { useParams } from 'react-router-dom';
 import HeroDetail from '../components/HeroDetail/HeroDetail';
 import TextImgSection from '../components/TextImgSection/TextImgSection';
 import CtaSection from '../components/CtaSection/CtaSection';
@@ -14,9 +13,8 @@ const componentMapping = {
     GalleryWithPopUp
 };
 
-export default function DetailPage() {
+export default function BedrijvenPage() {
 	// The id is the name of the json file so dont forget to add it
-    const { projectId } = useParams();
 
     const [detailData, setDetailData] = useState();
 
@@ -24,7 +22,7 @@ export default function DetailPage() {
 
 	 useEffect(() => {
 		//
-		import(`../data/projectsDetail/${projectId}.json`)
+		import(`../data/bedrijven/bedrijven.json`)
 			 .then((data) => {
 				  setDetailData(data.default);
 				  console.log(';succes');
@@ -32,7 +30,7 @@ export default function DetailPage() {
 			 .catch((error) => {
 				  console.log(error);
 			 });
-  }, [projectId]);
+  }, []);
 
     if (!detailData) {
         return <div>Loading...</div>;

@@ -8,6 +8,8 @@ import Footer from './components/Footer/Footer';
 import DetailPage from './pages/DetailPage';
 import ContactPage from './pages/ContactPage';
 import ProjectOverviewPage from './pages/ProjectOverviewPage';
+import BedrijvenPage from './pages/bedrijvenPage';
+import ParticulierenPage from './pages/ParticulierenPage';
 
 function App() {
 	return (
@@ -16,13 +18,13 @@ function App() {
 			<main>
 				<Routes>
 					<Route path="/" element={<HomePage />} />
-					<Route path="/particulieren" element={<DetailPage />} />
-					<Route path="/bedrijven" element={<DetailPage />} />
+					<Route path="/particulieren" element={<ParticulierenPage />} />
+					<Route path="/bedrijven" element={<BedrijvenPage />} />
 					<Route path="/projecten" element={<ProjectOverviewPage />} />
 					<Route path="/detailPage" element={<DetailPage />} />
 					<Route path="/contact" element={<ContactPage />} />
 					<Route path="/project" element={<ProjectOverviewPage />} />
-					<Route path="/project/:id" element={<DetailPage />} />
+					<Route path="/project/:projectId" element={<DetailPage />} />
 				</Routes>
 			</main>
 			<Analytics />
