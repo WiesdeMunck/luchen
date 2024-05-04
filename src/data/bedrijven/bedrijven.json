@@ -2,7 +2,7 @@
 	{
 		 "componentName": "HeroDetail",
 		 "props": {
-			  "title": "Beton ciré",
+			  "title": "Bedrijven",
 			  "img": "/img/beton-cire.webp",
 			  "alt": "beton cire geeft u een verfijnde uitstraling"
 		 }

@@ -40,9 +40,9 @@ export default function DetailPage() {
 
     return (
         <article>
-            {detailData.map(({ componentName, data }) => {
+            {detailData.map(({ componentName, props }) => {
                 const Component = componentMapping[componentName];
-                return <Component data={data} key={componentName} />;
+                return <Component data={props} key={componentName} />;
             })}
         </article>
     );

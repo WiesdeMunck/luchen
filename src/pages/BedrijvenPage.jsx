@@ -25,10 +25,8 @@ export default function BedrijvenPage() {
 		import(`../data/bedrijven/bedrijven.json`)
 			 .then((data) => {
 				  setDetailData(data.default);
-				  console.log(';succes');
 			 })
 			 .catch((error) => {
-				  console.log(error);
 			 });
   }, []);
 
@@ -36,11 +34,12 @@ export default function BedrijvenPage() {
         return <div>Loading...</div>;
     }
 
+
     return (
         <article>
-            {detailData.map(({ componentName, data }) => {
+            {detailData.map(({ componentName, props }) => {
                 const Component = componentMapping[componentName];
-                return <Component data={data} key={componentName} />;
+                return <Component data={props} key={componentName} />;
             })}
         </article>
     );

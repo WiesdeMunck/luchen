@@ -29,6 +29,7 @@ export default function Navigation({ toggleMenu, handleClick }) {
         {navLinks.map((link, index) => (
           <li key={index} className="navigation__item">
             <NavLink
+				  onClick={handleClick}
               className={`navigation__link ${location.pathname === link.path ? 'navigation__link--active' : ''}`}
               to={link.path}
             >

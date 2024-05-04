@@ -8,7 +8,7 @@ import Footer from './components/Footer/Footer';
 import DetailPage from './pages/DetailPage';
 import ContactPage from './pages/ContactPage';
 import ProjectOverviewPage from './pages/ProjectOverviewPage';
-import BedrijvenPage from './pages/bedrijvenPage';
+import BedrijvenPage from './pages/BedrijvenPage';
 import ParticulierenPage from './pages/ParticulierenPage';
 
 function App() {
