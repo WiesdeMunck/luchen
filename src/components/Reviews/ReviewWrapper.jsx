@@ -27,6 +27,7 @@ export default function ReviewWrapper() {
 					{reviewData.map((reviewData, index) => {
 						return (
 							<ReviewCard
+								key={index}
 								img={reviewData.img}
 								name={reviewData.name}
 								company={reviewData.company}

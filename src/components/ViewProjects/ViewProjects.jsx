@@ -9,7 +9,7 @@ export default function ViewProjects() {
 			<div className="view-projects">
 			<CenteredText />
 			<PictureGallary />
-			<MainBtn link="" content="Bekijk mijn projecten" classNames="btn--primary" />
+			<MainBtn link={'/projecten'} content="Bekijk mijn projecten" classNames="btn--primary" />
 			{/* Todo Components pictured centered */}
 			</div>
 

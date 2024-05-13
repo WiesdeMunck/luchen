@@ -27,6 +27,7 @@ export default function BedrijvenPage() {
 				  setDetailData(data.default);
 			 })
 			 .catch((error) => {
+				console.log(error)
 			 });
   }, []);
 
