@@ -1,22 +1,22 @@
- {
-	"home": {
-		"componentName": "HeroHome",
-		"props": {
-			"title": "Beton ciré",
-			"imgBackground": "/img/beton-cire.webp",
-			"imgPerson": "/img/beton-cire.webp",
-			"primaryBtn": "Huur mij in!",
-			"primaryBtnLink": "Huur mij in!",
-			"SecondaryBtn": "Huur mij in!",
-			"SecondaryBtnLink": "Huur mij in!"
-		}
+{
+	"HeroHome": {
+		"title": "Beton ciré",
+		"imgBackground": "/img/beton-cire.webp",
+		"imgPerson": "/img/beton-cire.webp",
+		"primaryBtn": "Huur mij in!",
+		"primaryBtnLink": "Huur mij in!",
+		"SecondaryBtn": "Huur mij in!",
+		"SecondaryBtnLink": "Huur mij in!"
 	},
-	"home2": {
-		"componentName": "ViewProjects",
-		"props": {
-			"title": "Beton ciré",
-			"text": "Some text for the TextImgSection component",
-			"images": ["/img/text-img-section.webp", "/img/text-img-section.webp", "/img/text-img-section.webp", "/img/text-img-section.webp", "/img/text-img-section.webp"]
-		}
+	"ViewProjects": {
+		"title": "Beton ciré",
+		"text": "Some text for the TextImgSection component",
+		"images": [
+			"/img/text-img-section.webp",
+			"/img/text-img-section.webp",
+			"/img/text-img-section.webp",
+			"/img/text-img-section.webp",
+			"/img/text-img-section.webp"
+		]
 	}
 }
