@@ -25,7 +25,7 @@ export default function HeroHome({data}) {
         </div>
       </div>
       <div className="hero-home__content">
-        <h1 classNames="hero-home__title">{data.title}</h1>
+        <h1 className="hero-home__title">{data.title}</h1>
         <div className="hero-home__button-wrapper">
           <MainBtn link={data.primaryBtnLink} content={data.primaryBtnContent} />
           <MainBtn link={data.secondaryBtnLink} classNames={'btn--secondary'} content={data.secondaryBtnContent} />

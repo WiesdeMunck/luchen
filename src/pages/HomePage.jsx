@@ -16,7 +16,7 @@ export default function HomePage() {
 		<>
 			<HeroHome key="1" data={HomeData.HeroHome} />
 			<ViewProjects key="2" data={HomeData.ViewProjects} />
-			<PreviewColumns key="3" />
+			<PreviewColumns key="3" data={HomeData.PreviewColumns} />
 			<TextImgSection key="4" />
 			<ReviewWrapper key="5" />
 			<TextOnlySection key="6" />

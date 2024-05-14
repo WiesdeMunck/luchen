@@ -3,18 +3,15 @@ import CenteredText from '../CenteredText/CenteredText';
 import PreviewColumn from './PreviewColumn';
 
 
-export default function PreviewColumns() {
+export default function PreviewColumns({data}) {
 	return (
 		<section className="grid-item ">
 			<div>
-			<CenteredText />
+			<CenteredText title={data.title} text={data.text}/>
 			<div className="preview-column-wrapper">
-
-
-
-				{[...Array(3)].map((_, index) => {
+				{data.items.map((item, index) => {
 					return (
-						<PreviewColumn key={index}/>
+						<PreviewColumn faIcon={item.faIcon} title={item.title} text={item.text} key={index}/>
 					)
 				})}
 			{/* Todo Components pictured centered */}
