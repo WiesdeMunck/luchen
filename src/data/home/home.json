@@ -9,14 +9,31 @@
 		"secondaryBtnLink": "/contact"
 	},
 	"ViewProjects": {
-		"title": "Beton ciré",
-		"text": "Some text for the TextImgSection component",
+		"title": "Expert plastering, exceptional results",
+		"text": "In auctor viverra neque, ac fermentum quam. Pellentesque habitant morbi tristique senec",
 		"images": [
-			"/img/text-img-section.webp",
-			"/img/text-img-section.webp",
-			"/img/text-img-section.webp",
-			"/img/text-img-section.webp",
-			"/img/text-img-section.webp"
-		]
+			{
+				"src":"/img/home-being-plasterd.webp",
+				"alt":"alt me"
+			},
+			{
+				"src":"/img/home-being-plasterd.webp",
+				"alt":"alt me"
+			},
+			{
+				"src":"/img/home-being-plasterd.webp",
+				"alt":"alt me"
+			},
+			{
+				"src":"/img/home-being-plasterd.webp",
+				"alt":"alt me"
+			},
+			{
+				"src":"/img/home-being-plasterd.webp",
+				"alt":"alt me"
+			}
+		],
+		"primaryBtnContent": "Huur mij in!",
+		"primaryBtnLink": "/contact"
 	}
 }

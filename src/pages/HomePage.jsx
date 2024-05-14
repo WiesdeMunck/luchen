@@ -11,12 +11,11 @@ import HomeData from '../data/home/home.json';
 
 export default function HomePage() {
 	// Set data
-	const detailData = HomeData;
 
 	return (
 		<>
-			<HeroHome key="1" data={detailData.HeroHome} />
-			<ViewProjects key="2" />
+			<HeroHome key="1" data={HomeData.HeroHome} />
+			<ViewProjects key="2" data={HomeData.ViewProjects} />
 			<PreviewColumns key="3" />
 			<TextImgSection key="4" />
 			<ReviewWrapper key="5" />
