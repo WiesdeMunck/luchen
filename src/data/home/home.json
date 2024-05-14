@@ -1,12 +1,12 @@
 {
 	"HeroHome": {
-		"title": "Beton ciré",
-		"imgBackground": "/img/beton-cire.webp",
-		"imgPerson": "/img/beton-cire.webp",
-		"primaryBtn": "Huur mij in!",
-		"primaryBtnLink": "Huur mij in!",
-		"SecondaryBtn": "Huur mij in!",
-		"SecondaryBtnLink": "Huur mij in!"
+		"title": " Expert plastering, exceptional results",
+		"imgBackground": "/img/home-being-plasterd.webp",
+		"imgPerson": "/img/self-portrait.webp",
+		"primaryBtnContent": "Huur mij in!",
+		"primaryBtnLink": "/contact",
+		"secondaryBtnContent": "contact me!",
+		"secondaryBtnLink": "/contact"
 	},
 	"ViewProjects": {
 		"title": "Beton ciré",
