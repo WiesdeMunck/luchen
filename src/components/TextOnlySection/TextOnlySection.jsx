@@ -1,14 +1,13 @@
 import React from 'react';
 
-export default function TextOnlySection() {
+export default function TextOnlySection({data}) {
 	return (
 		<section className="grid-item">
 			<div className='text-only-section'>
-			<h2 className='text-only-section__title'>Expert plastering, exceptional results</h2>
-			<p className='text-only-section__text'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque totam atque nulla optio cumque voluptates blanditiis excepturi, obcaecati, animi in magnam odio, rem sapiente. Accusamus impedit unde ea quidem aliquam quia? Odit blanditiis expedita commodi id temporibus! Pariatur eaque dolor fugiat nisi dolores eum. Maiores minus odit illo fugiat minima iste temporibus earum quos quam rerum sit error quis sint tempore consequatur porro ipsum ut voluptatem mollitia, cupiditate eum dolores nemo sapiente et. Dolore excepturi sapiente aut, voluptas nostrum </p>
-			<p className='text-only-section__text'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque totam atque nulla optio cumque voluptates blanditiis excepturi, obcaecati, animi in magnam odio, rem sapiente. Accusamus impedit unde ea quidem aliquam quia? Odit blanditiis expedita commodi id temporibus! Pariatur eaque dolor fugiat nisi dolores eum. Maiores minus odit illo fugiat minima iste temporibus earum quos quam rerum sit error quis sint tempore consequatur porro ipsum ut voluptatem mollitia, cupiditate eum dolores nemo sapiente et. Dolore excepturi sapiente aut, voluptas nostrum </p>
+			<h2 className='text-only-section__title'>{data.title}</h2>
+			{/* Compant way of writing a return map function */}
+			{data.text.map((item, i) => <p key={i} className='text-only-section__text'>{item}</p> )}
 			</div>
-
 		</section>
 	);
 }

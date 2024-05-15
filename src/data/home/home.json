@@ -13,24 +13,24 @@
 		"text": "In auctor viverra neque, ac fermentum quam. Pellentesque habitant morbi tristique senec",
 		"images": [
 			{
-				"src":"/img/home-being-plasterd.webp",
-				"alt":"alt me"
+				"src": "/img/home-being-plasterd.webp",
+				"alt": "alt me"
 			},
 			{
-				"src":"/img/home-being-plasterd.webp",
-				"alt":"alt me"
+				"src": "/img/home-being-plasterd.webp",
+				"alt": "alt me"
 			},
 			{
-				"src":"/img/home-being-plasterd.webp",
-				"alt":"alt me"
+				"src": "/img/home-being-plasterd.webp",
+				"alt": "alt me"
 			},
 			{
-				"src":"/img/home-being-plasterd.webp",
-				"alt":"alt me"
+				"src": "/img/home-being-plasterd.webp",
+				"alt": "alt me"
 			},
 			{
-				"src":"/img/home-being-plasterd.webp",
-				"alt":"alt me"
+				"src": "/img/home-being-plasterd.webp",
+				"alt": "alt me"
 			}
 		],
 		"primaryBtnContent": "Huur mij in!",
@@ -41,21 +41,62 @@
 		"text": "In auctor viverra neque, ac fermentum quam. Pellentesque habitant morbi tristique senec",
 		"items": [
 			{
-				"faIcon": ["fas", "home"],
+				"faIcon": [
+					"fas",
+					"home"
+				],
 				"title": "Lorem, ipsum dolor.",
 				"text": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aspernatur, expedita. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aspernatur, expedita."
 			},
 			{
-				"faIcon": ["fas", "home"],
+				"faIcon": [
+					"fas",
+					"home"
+				],
 				"title": "Lorem, ipsum dolor.",
 				"text": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aspernatur, expedita. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aspernatur, expedita."
 			},
 			{
-				"faIcon": ["fas", "home"],
+				"faIcon": [
+					"fas",
+					"home"
+				],
 				"title": "Lorem, ipsum dolor.",
 				"text": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aspernatur, expedita. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aspernatur, expedita."
 			}
 		]
-
+	},
+	"TextImgSection": {
+		"title": "Some text for the TextImgSection component",
+		"text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum odit, rem nobis voluptate quasi porro est earum, temporibus aliquam incidunt aliquid fugit magnam ipsa facere eius maxime, iusto animi voluptatum numquam cumque deleniti. Repellat eum fuga animi eligendi necessitatibus ullam eveniet, quo cupiditate esse sunt nam? Quae voluptates laborum repellat debitis. Deserunt illum, repellendus ipsa vitae incidunt recusandae ut nostrum hic, voluptate modi, fugiat in consequatur ab assumenda enim tempora eaque amet itaque repudiandae dolorem veritatis! Unde officia dolorem nobis illum ullam ea nemo sapiente optio voluptas aperiam tenetur",
+		"img": "/img/home-being-plasterd.webp",
+		"alt": "alt me"
+	},
+	"ReviewWrapper": {
+		"title": "Expert plastering, exceptional results",
+		"text": "In auctor viverra neque, ac fermentum quam. Pellentesque habitant morbi tristique senec",
+		"items": [
+			{
+				"img": "/img/home-being-plasterd.webp",
+				"name": "lorem impsum One",
+				"company": "company one",
+				"text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum odit, rem nobis voluptate quasi porro est earum, temporibus aliquam incidunt aliquid fugit magnam ipsa facere eius maxime."
+			},
+			{
+				"img": "/img/home-being-plasterd.webp",
+				"name": "lorem impsum",
+				"company": "company two",
+				"text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum odit, rem nobis voluptate quasi porro est earum, temporibus aliquam incidunt aliquid fugit magnam ipsa facere eius maxime."
+			}
+		]
+	},
+	"TextOnlySection": {
+		"title": "Expert plastering, exceptional results",
+		"text": [
+			"Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque totam atque nulla optio cumque voluptates blanditiis excepturi, obcaecati, animi in magnam odio, rem sapiente. Accusamus impedit unde ea quidem aliquam quia? Odit blanditiis expedita commodi id temporibus! Pariatur eaque dolor fugiat nisi dolores eum. Maiores minus odit illo fugiat minima iste temporibus earum quos quam rerum sit error quis sint tempore consequatur porro ipsum ut voluptatem mollitia, cupiditate eum dolores nemo sapiente et. Dolore excepturi sapiente aut, voluptas nostrum ",
+			"Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque totam atque nulla optio cumque voluptates blanditiis excepturi, obcaecati, animi in magnam odio, rem sapiente. Accusamus impedit unde ea quidem aliquam quia? Odit blanditiis expedita commodi id temporibus! Pariatur eaque dolor fugiat nisi dolores eum. Maiores minus odit illo fugiat minima iste temporibus earum quos quam rerum sit error quis sint tempore consequatur porro ipsum ut voluptatem mollitia, cupiditate eum dolores nemo sapiente et. Dolore excepturi sapiente aut, voluptas nostrum "
+		],
+		"img": "/img/home-being-plasterd.webp",
+		"alt": "alt me"
 	}
 }

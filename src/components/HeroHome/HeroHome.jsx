@@ -12,8 +12,6 @@ export default function HeroHome({data}) {
     backgroundImg.src = data.imgBackground;
   }, []);
 
-  console.log(data)
-
   return (
     <section className="hero-home">
       <div className="hero-home__images-wrapper">
