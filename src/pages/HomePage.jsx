@@ -20,7 +20,7 @@ export default function HomePage() {
 			<TextImgSection key="4" data={HomeData.TextImgSection} />
 			<ReviewWrapper key="5" data={HomeData.ReviewWrapper} />
 			<TextOnlySection key="6" data={HomeData.TextOnlySection} />
-			<CtaSection key="7" />
+			<CtaSection key="7" data={HomeData.CtaSection} />
 		</>
 	);
 }

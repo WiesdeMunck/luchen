@@ -1,0 +1,55 @@
+{
+	"title": "Feel to contact me",
+	"contact": {
+		"title": "Contact Me",
+		"contactLinks": [
+		{
+			"linkText": "email@email.com",
+			"link": "mailto:email@email.com"
+		},
+		{
+			"linkText": "123-456-7890",
+			"link": "tel:123-456-7890"
+		},
+		{
+			"linkText": "J.Huydecoperweg 11 1331gc Almere",
+			"link": "google.con/maps/location/link"
+		}
+	]},
+	"linkLists": {
+		"projects": {
+			"title": "Projects",
+			"links": [
+				{
+					"linkText": "Project 1",
+					"link": "http://www.project1.com"
+				},
+				{
+					"linkText": "Project 2",
+					"link": "http://www.project2.com"
+				},
+				{
+					"linkText": "Project 3",
+					"link": "http://www.project3.com"
+				}
+			]
+		},
+		"blog": {
+			"title": "Blog",
+			"links": [
+				{
+					"linkText": "Blog 1",
+					"link": "http://www.blog1.com"
+				},
+				{
+					"linkText": "Blog 2",
+					"link": "http://www.blog2.com"
+				},
+				{
+					"linkText": "Blog 3",
+					"link": "http://www.blog3.com"
+				}
+			]
+		}
+	}
+}
