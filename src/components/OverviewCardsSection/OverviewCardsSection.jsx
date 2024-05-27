@@ -2,6 +2,7 @@ import React from 'react';
 import OverviewCard from './OverviewCard';
 
 export default function OverviewCardsSection({jsonData}) {
+	console.log('hyej',jsonData)
 	return (
 		<section className="grid-item --no-full-height --bg-clr-primary--300">
 			<div className="overview-cards-section">
@@ -10,7 +11,7 @@ export default function OverviewCardsSection({jsonData}) {
 				</div>
 				<div className='overview-cards-section__cards-wrapper' >
 					{jsonData.map((data, id) => {
-						return <OverviewCard id={id} link={data.link} title={data.title} alt={data.alt} image={data.img}  />;
+						return <OverviewCard id={id} key={id} link={data.link} title={data.title} alt={data.alt} image={data.img}  />;
 					})}
 				</div>
 				{/* Maybe some seo text */}
