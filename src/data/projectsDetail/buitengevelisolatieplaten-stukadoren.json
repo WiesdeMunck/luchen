@@ -1,37 +1,34 @@
 [
 	{
-		 "componentName": "HeroDetail",
-		 "props": {
-			  "title": "Beton ciré",
-			  "img": "/img/beton-cire.webp",
-			  "alt": "beton cire geeft u een verfijnde uitstraling"
-		 }
-	},
-	{
-		 "componentName": "TextImgSection",
-		 "props": {
-			  "text": "Some text for the TextImgSection component",
-			  "img": "/img/text-img-section.webp"
-		 }
+		"componentName": "HeroDetail",
+		"props": {
+			"title": "Buitengevelisolatie",
+			"text": "Buitengevelisolatieplaten stukadoren in Zeewolde.",
+			"img": "/img/Buitengevelisolatie-4.jpg",
+			"alt": "aan het stukadoren voor particlieren",
+			"primaryBtnContent": "Neem contact op!",
+			"primaryBtnLink": "/contact"
+		}
 	},
 	{
 		 "componentName": "GalleryWithPopUp",
 		 "props": {
 			  "images": [
-					"/img/gallery1.webp",
-					"/img/gallery2.webp",
-					"/img/gallery3.webp"
+					"/img/Buitengevelisolatie-1.jpg",
+					"/img/Buitengevelisolatie-2.jpg",
+					"/img/Buitengevelisolatie-3.jpg",
+					"/img/Buitengevelisolatie-4.jpg"
 			  ]
 		 }
 	},
 	{
-		 "componentName": "CtaSection",
-		 "props": {
-			"title": "Lorem ipsum dolor sit amet consectetur.",
+		"componentName": "CtaSection",
+		"props": {
+			"title": "Al overtuigt? neem dan gerust contact op.",
 			"text": [
-				"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem facilis vitae maxime quo."
+				"Neem vandaag nog contact met ons op voor een vrijblijvende offerte en laat ons uw droomruimte realiseren!"
 			],
-			"primaryBtnContent": "Huur mij in!",
+			"primaryBtnContent": "Neem contact op!",
 			"primaryBtnLink": "/contact"
 		}
 	}

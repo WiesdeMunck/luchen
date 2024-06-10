@@ -14,7 +14,7 @@ export default function Header() {
 		<header className="grid-item">
 			<div className="header ">
 				<Link className="header__logo-wrapper" to="/">
-					<img className="header__logo" src="/img/logo.webp" alt="" />
+					<img className="header__logo" src="/img/logo.png" alt="" />
 				</Link>
 				<svg
 					onClick={handleClick}

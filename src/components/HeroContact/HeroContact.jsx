@@ -20,10 +20,10 @@ export default function HeroContact() {
 						</h1>
 						<ul className="hero-contact__content-list">
 							<li className="hero-contact__content-list-item">
-								info@luschenstukadoors.nl
+								<a href="mailto:info@luschenstukadoors.nl">info@luschenstukadoors.nl</a>
 							</li>
 							<li className="hero-contact__content-list-item">
-								06 - 53500500
+								<a href="tel:0653500500">06-53-500-500</a>
 							</li>
 						</ul>
 					</div>

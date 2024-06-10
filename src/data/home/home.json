@@ -1,40 +1,40 @@
 {
 	"HeroHome": {
-		"title": " Expert plastering, exceptional results",
-		"imgBackground": "/img/home-being-plasterd.webp",
-		"imgPerson": "/img/self-portrait.webp",
-		"primaryBtnContent": "Huur mij in!",
+		"title": "A. M. Lüschen stukadoorsbedrijf",
+		"imgBackground": "/img/beton-cire-inprogress.webp",
+		"imgPerson": "/img/stukadoor-portret.webp",
+		"primaryBtnContent": "Neem contact op!",
 		"primaryBtnLink": "/contact",
-		"secondaryBtnContent": "contact me!",
+		"secondaryBtnContent": "huur mij in",
 		"secondaryBtnLink": "/contact"
 	},
 	"ViewProjects": {
-		"title": "Expert plastering, exceptional results",
-		"text": "In auctor viverra neque, ac fermentum quam. Pellentesque habitant morbi tristique senec",
+		"title": "Bekijk onze eerder gestucte projecten",
+		"text": "Glad pleisterwerk, Latex spuiten, Badkamers en keukens waterpas uitrapen/stucadoren, Restauratie, Buitengevel isolatie en nog meer",
 		"images": [
 			{
-				"src": "/img/home-being-plasterd.webp",
-				"alt": "alt me"
+				"src": "/img/beton-cire.webp",
+				"alt": "beton cire"
 			},
 			{
-				"src": "/img/home-being-plasterd.webp",
-				"alt": "alt me"
+				"src": "/img/buiten-gevel-werk.jpg",
+				"alt": "buiten gevel werk"
 			},
 			{
-				"src": "/img/home-being-plasterd.webp",
-				"alt": "alt me"
+				"src": "/img/wanden-vlakken.jpg",
+				"alt": "wanen vlakken"
 			},
 			{
-				"src": "/img/home-being-plasterd.webp",
-				"alt": "alt me"
+				"src": "/img/latex-spuiten-inprogress.jpg",
+				"alt": "latex spuiten"
 			},
 			{
-				"src": "/img/home-being-plasterd.webp",
-				"alt": "alt me"
+				"src": "/img/Buiten-gevel-werk-af.jpg",
+				"alt": "latex spuiten af"
 			}
 		],
-		"primaryBtnContent": "Huur mij in!",
-		"primaryBtnLink": "/contact"
+		"primaryBtnContent": "Bekijk eerdere projecten",
+		"primaryBtnLink": "/projecten"
 	},
 	"PreviewColumns": {
 		"title": "Expert plastering, exceptional results",
@@ -67,31 +67,28 @@
 		]
 	},
 	"TextImgSection": {
-		"title": "Some text for the TextImgSection component",
-		"text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum odit, rem nobis voluptate quasi porro est earum, temporibus aliquam incidunt aliquid fugit magnam ipsa facere eius maxime, iusto animi voluptatum numquam cumque deleniti. Repellat eum fuga animi eligendi necessitatibus ullam eveniet, quo cupiditate esse sunt nam? Quae voluptates laborum repellat debitis. Deserunt illum, repellendus ipsa vitae incidunt recusandae ut nostrum hic, voluptate modi, fugiat in consequatur ab assumenda enim tempora eaque amet itaque repudiandae dolorem veritatis! Unde officia dolorem nobis illum ullam ea nemo sapiente optio voluptas aperiam tenetur",
-		"img": "/img/home-being-plasterd.webp",
+		"title": "Aangenaam kennis te maken",
+		"text": "Mijn naam is Alexander Lüschen, eigenaar van 'A.M. Lüschen Stukadoorsbedrijf'. Ons stukadoorsbedrijf is gevestigd in Weesp en al ruim 25 jaar werkzaam in de regio Flevoland, 't Gooi, Amsterdam, Utrecht e.o. Heeft u na het bekijken van onze website nog vragen? Neem dan gerust contact met mij op voor verdere informatie.",
+		"img": "/img/Luchen-stukt.jpg",
 		"alt": "alt me"
 	},
 	"ReviewWrapper": {
-		"title": "Expert plastering, exceptional results",
-		"text": "In auctor viverra neque, ac fermentum quam. Pellentesque habitant morbi tristique senec",
+		"title": "Wat zeggen onze klanten?",
 		"items": [
 			{
-				"img": "/img/home-being-plasterd.webp",
-				"name": "lorem impsum One",
-				"company": "company one",
-				"text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum odit, rem nobis voluptate quasi porro est earum, temporibus aliquam incidunt aliquid fugit magnam ipsa facere eius maxime."
+				"img": "/img/letter-e.jpg",
+				"name": "E, G",
+				"text": "Excellent quality of stucco work by skilled and motivated team. Prompt and kind helpful communication Very glad with beautiful wall.Value for money. Perfect vakwerk geleverd door vakkundig en gemotiveerd team.Keurig nadien afval opgeruimd. Value for money."
 			},
 			{
-				"img": "/img/home-being-plasterd.webp",
-				"name": "lorem impsum",
-				"company": "company two",
-				"text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum odit, rem nobis voluptate quasi porro est earum, temporibus aliquam incidunt aliquid fugit magnam ipsa facere eius maxime."
+				"img": "/img/born-van-dan-neut.png",
+				"name": "Bjorn van der Neut",
+				"text": "Super goed werk afgeleverd. Tevens erg professioneel en iemand met veel kennis. Gaf goede tips ook voor de afwerking nadien. Ik kan deze stukadoor S.R. Lüschen uit Weesp dus zeker aanbevelen aan iedereen."
 			}
 		]
 	},
 	"TextOnlySection": {
-		"title": "Expert plastering, exceptional results",
+		"title": "Al overtuigt? neem dan gerust contact op.",
 		"text": [
 			"Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque totam atque nulla optio cumque voluptates blanditiis excepturi, obcaecati, animi in magnam odio, rem sapiente. Accusamus impedit unde ea quidem aliquam quia? Odit blanditiis expedita commodi id temporibus! Pariatur eaque dolor fugiat nisi dolores eum. Maiores minus odit illo fugiat minima iste temporibus earum quos quam rerum sit error quis sint tempore consequatur porro ipsum ut voluptatem mollitia, cupiditate eum dolores nemo sapiente et. Dolore excepturi sapiente aut, voluptas nostrum ",
 			"Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque totam atque nulla optio cumque voluptates blanditiis excepturi, obcaecati, animi in magnam odio, rem sapiente. Accusamus impedit unde ea quidem aliquam quia? Odit blanditiis expedita commodi id temporibus! Pariatur eaque dolor fugiat nisi dolores eum. Maiores minus odit illo fugiat minima iste temporibus earum quos quam rerum sit error quis sint tempore consequatur porro ipsum ut voluptatem mollitia, cupiditate eum dolores nemo sapiente et. Dolore excepturi sapiente aut, voluptas nostrum "
@@ -100,11 +97,11 @@
 		"alt": "alt me"
 	},
 	"CtaSection": {
-		"title": "Lorem ipsum dolor sit amet consectetur.",
+		"title": "Al overtuigt? neem dan gerust contact op.",
 		"text": [
-			"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem facilis vitae maxime quo."
+			"Neem vandaag nog contact met ons op voor een vrijblijvende offerte en laat ons uw droomruimte realiseren!"
 		],
-		"primaryBtnContent": "Huur mij in!",
+		"primaryBtnContent": "Neem contact op!",
 		"primaryBtnLink": "/contact"
 	}
 }

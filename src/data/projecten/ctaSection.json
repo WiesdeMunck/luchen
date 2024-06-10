@@ -1,8 +1,8 @@
 {
-	"title": "Lorem ipsum dolor sit amet consectetur.",
-	"text": [
-		"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem facilis vitae maxime quo."
-	],
-	"primaryBtnContent": "Huur mij in!",
-	"primaryBtnLink": "/contact"
+	"title": "Al overtuigt? neem dan gerust contact op.",
+			"text": [
+				"Neem vandaag nog contact met ons op voor een vrijblijvende offerte en laat ons uw droomruimte realiseren!"
+			],
+			"primaryBtnContent": "Neem contact op!",
+			"primaryBtnLink": "/contact"
 }

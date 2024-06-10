@@ -1,0 +1,10 @@
+@use '../abstracts' as *;
+
+
+.section-spacing {
+	all: unset;
+	background: var(--clr-primary--500);
+	display: block;
+	height: 4px;
+	width: 100%;
+}

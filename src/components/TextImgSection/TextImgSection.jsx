@@ -8,9 +8,8 @@ export default function TextImgSection({classNames, data}) {
 					<h2 className="text-img-section__title">
 						{data.title}
 					</h2>
-					<p className="text-img-section__text">
-						{data.text}
-					</p>
+					{data.text && <p className="text-img-section__text">{data.text}</p>}
+					{data.list && <ul className="text-img-section__list"> {data.list.map((text, index)  => <li className='text-img-section__list-item' key={index}>{text}</li>)} </ul> }
 				</div>
 				<div className="text-img-section__img-wrapper">
 					<img

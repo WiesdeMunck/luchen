@@ -1,37 +1,35 @@
 [
 	{
-		 "componentName": "HeroDetail",
-		 "props": {
-			  "title": "Beton ciré",
-			  "img": "/img/beton-cire.webp",
-			  "alt": "beton cire geeft u een verfijnde uitstraling"
-		 }
+		"componentName": "HeroDetail",
+		"props": {
+			"title": "Latex spuiten",
+			"text": "Latex spuiten op wanden en plafonds in Nederhorst den Berg.",
+			"img": "/img/latex-spuiten-4.jpg",
+			"alt": "aan het latex spuiten",
+			"primaryBtnContent": "Neem contact op!",
+			"primaryBtnLink": "/contact"
+		}
 	},
 	{
-		 "componentName": "TextImgSection",
-		 "props": {
-			  "text": "Some text for the TextImgSection component",
-			  "img": "/img/text-img-section.webp"
-		 }
+		"componentName": "GalleryWithPopUp",
+		"props": {
+			"images": [
+				"/img/latex-spuiten-1.jpg",
+				"/img/latex-spuiten-2.jpg",
+				"/img/latex-spuiten-3.jpg",
+				"/img/latex-spuiten-4.jpg",
+				"/img/latex-spuiten-5.jpg"
+			]
+		}
 	},
 	{
-		 "componentName": "GalleryWithPopUp",
-		 "props": {
-			  "images": [
-					"/img/gallery1.webp",
-					"/img/gallery2.webp",
-					"/img/gallery3.webp"
-			  ]
-		 }
-	},
-	{
-		 "componentName": "CtaSection",
-		 "props": {
-			"title": "Lorem ipsum dolor sit amet consectetur.",
+		"componentName": "CtaSection",
+		"props": {
+			"title": "Al overtuigt? neem dan gerust contact op.",
 			"text": [
-				"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem facilis vitae maxime quo."
+				"Neem vandaag nog contact met ons op voor een vrijblijvende offerte en laat ons uw droomruimte realiseren!"
 			],
-			"primaryBtnContent": "Huur mij in!",
+			"primaryBtnContent": "Neem contact op!",
 			"primaryBtnLink": "/contact"
 		}
 	}

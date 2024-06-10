@@ -1,6 +1,11 @@
 @use '../abstracts' as *;
 
+footer  {
+	border-top: 4px var(--clr-primary--500) solid;
+}
+
 .footer{
+
 	padding: 2.5rem  0 5rem 0;
 
 	@include for-tablet-l-up {

@@ -1,37 +1,53 @@
 [
 	{
-		 "componentName": "HeroDetail",
-		 "props": {
-			  "title": "Beton ciré",
-			  "img": "/img/beton-cire.webp",
-			  "alt": "beton cire geeft u een verfijnde uitstraling"
-		 }
+		"componentName": "HeroDetail",
+		"props": {
+			"title": "Stukadoren voor particliren",
+			"text": "Ons stukadoorsbedrijf heeft al veel tevreden klanten en daar zijn we trots op! Wij geven heldere offertes en maken duidelijke afspraken met u. Als klant weet u van tevoren wat u van ons kunt verwachten. Daardoor komt u later niet voor verrassingen te staan.",
+			"img": "/img/Luchen-stukt.jpg",
+			"alt": "aan het stukadoren voor particlieren",
+			"primaryBtnContent": "Neem contact op",
+			"primaryBtnLink": "/contact"
+		}
 	},
 	{
-		 "componentName": "TextImgSection",
-		 "props": {
-			  "text": "Some text for the TextImgSection component",
-			  "img": "/img/text-img-section.webp"
-		 }
+		"componentName": "ReviewWrapper",
+		"props": {
+			"title": "Wat zeggen onze klanten?",
+			"items": [
+				{
+					"img": "/img/letter-e.jpg",
+					"name": "E, G",
+					"text": "Excellent quality of stucco work by skilled and motivated team. Prompt and kind helpful communication Very glad with beautiful wall.Value for money. Perfect vakwerk geleverd door vakkundig en gemotiveerd team.Keurig nadien afval opgeruimd. Value for money."
+				},
+				{
+					"img": "/img/born-van-dan-neut.png",
+					"name": "Bjorn van der Neut",
+					"text": "Super goed werk afgeleverd. Tevens erg professioneel en iemand met veel kennis. Gaf goede tips ook voor de afwerking nadien. Ik kan deze stukadoor S.R. Lüschen uit Weesp dus zeker aanbevelen aan iedereen."
+				}
+			]
+		}
 	},
 	{
-		 "componentName": "GalleryWithPopUp",
-		 "props": {
-			  "images": [
-					"/img/gallery1.webp",
-					"/img/gallery2.webp",
-					"/img/gallery3.webp"
-			  ]
-		 }
-	},
-	{
-		 "componentName": "CtaSection",
-		 "props": {
-			"title": "Lorem ipsum dolor sit amet consectetur.",
+		"componentName": "TextImgSection",
+		"props": {
+			"title": " Vakwerk op Maat voor Binnen- en Buitenafbouw",
 			"text": [
-				"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem facilis vitae maxime quo."
+				"Wij zijn een breed georiënteerd afbouw- en stukadoorsbedrijf en leveren vakwerk op maat. We doen zowel binnen- als buitenwerk. Wij luisteren naar u en geven gratis interieuradviezen passend bij uw individuele wensen.",
+				"Kiest u voor A.M. Lüschen Stukadoorsbedrijf, dan haalt u deskundigheid en kwaliteit in huis. Omdat er op maat gewerkt wordt, is ook elke offerte op maat. Bent u benieuwd wat voor uw woning mogelijk is? Neem contact met ons op."
 			],
-			"primaryBtnContent": "Huur mij in!",
+			"img": "/img/beton-cire.webp",
+			"alt": "alt me"
+		}
+	},
+	{
+		"componentName": "CtaSection",
+		"props": {
+			"title": "Al overtuigt? neem dan gerust contact op.",
+			"text": [
+				"Neem vandaag nog contact met ons op voor een vrijblijvende offerte en laat ons uw droomruimte realiseren!"
+			],
+			"primaryBtnContent": "Neem contact op!",
 			"primaryBtnLink": "/contact"
 		}
 	}

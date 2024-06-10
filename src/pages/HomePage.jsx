@@ -16,11 +16,12 @@ export default function HomePage() {
 		<>
 			<HeroHome key="1" data={HomeData.HeroHome} />
 			<ViewProjects key="2" data={HomeData.ViewProjects} />
-			<PreviewColumns key="3" data={HomeData.PreviewColumns} />
-			<TextImgSection key="4" data={HomeData.TextImgSection} />
+			{/* <PreviewColumns key="3" data={HomeData.PreviewColumns} /> */}
 			<ReviewWrapper key="5" data={HomeData.ReviewWrapper} />
-			<TextOnlySection key="6" data={HomeData.TextOnlySection} />
+			<TextImgSection key="4" data={HomeData.TextImgSection} />
 			<CtaSection key="7" data={HomeData.CtaSection} />
+			{/* <TextOnlySection key="6" data={HomeData.TextOnlySection} /> */}
+
 		</>
 	);
 }

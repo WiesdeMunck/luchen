@@ -2,8 +2,13 @@
 
 .contact-info {
 	padding: 5rem 0;
+
 	display: grid;
 	gap: 4rem;
+
+	&__btw {
+		margin: auto;
+	}
 
 	@include for-tablet-l-up {
 		gap: var(--grid-margin);
@@ -42,4 +47,10 @@
 	&__locations-item {
 		margin-left: 1.25rem;
 	}
+	&__btw {
+		margin: 0 auto;
+		grid-column: span 2;
+	}
 }
+
+

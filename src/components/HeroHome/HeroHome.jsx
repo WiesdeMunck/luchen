@@ -24,6 +24,11 @@ export default function HeroHome({data}) {
       </div>
       <div className="hero-home__content">
         <h1 className="hero-home__title">{data.title}</h1>
+		  <p className='hero-home__mobile-content'>• 25 jaar ervaring, • Werkzaam in Flevoland 't Gooi, Amsterdam en Utrecht e.o</p>
+		  <ul className="hero-home__list">
+			<li className="hero-home__list-item">Gegarandeerde kwaliteit met 25 jaar ervaring</li>
+			<li className="hero-home__list-item">Werkzaam in regio Flevoland, 't Gooi, Amsterdam en Utrecht e.o</li>
+		  </ul>
         <div className="hero-home__button-wrapper">
           <MainBtn link={data.primaryBtnLink} content={data.primaryBtnContent} />
           <MainBtn link={data.secondaryBtnLink} classNames={'btn--secondary'} content={data.secondaryBtnContent} />

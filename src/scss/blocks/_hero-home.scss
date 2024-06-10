@@ -21,7 +21,6 @@
 		display: grid;
 		align-content: center;
 		justify-content: center;
-		gap: 1rem;
 		padding: 1.5rem 0 2rem;
 
 		@include for-tablet-l-up {
@@ -42,6 +41,54 @@
 
 		@include for-tablet-l-only {
 			font-size: 2.5rem;
+		}
+	}
+
+	&__mobile-content {
+		text-align: center;
+		margin: 0.5rem 0 1rem;
+
+
+		@include for-tablet-l-up {
+			display: none;
+		}
+	}
+
+	&__list {
+		margin-bottom: 2rem;
+		margin-top: 0.5rem;
+		display: none;
+
+		@include for-tablet-l-up {
+			display: block;
+		}
+	}
+
+
+	&__list-item {
+		list-style-type: none;
+		position: relative;
+		margin-top: 0.25rem;
+		padding-left: 1rem;
+
+
+
+		@include for-tablet-l-up {
+			&:before {
+				content: '•' / 'Bullit';
+				position: absolute;
+				top: 0;
+				bottom: 0;
+				font-size: 16px;
+				left: -0.75rem;
+				// background-color: #6AFFBC;
+				display: inline-block;
+				// aspect-ratio: 1/1;
+				line-height: 1.5;
+				padding: 0.25rem 0.33rem;
+				border-radius: 0.25rem;
+				margin: auto 0.5rem;
+			}
 		}
 	}
 

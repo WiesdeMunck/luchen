@@ -30,14 +30,6 @@
 		"img": "/img/latex-spuiten.webp",
 		"alt": "Latex spuiten op wanden en plafonds",
 		"link": "latex-spuiten"
-	},
-	{
-		"id": 5,
-		"type": "text",
-		"title": "Het volgende project",
-		"img": "/img/dummy-img.webp",
-		"alt": "afbeelding voor opvulling",
-		"link": "404"
 	}
 
 

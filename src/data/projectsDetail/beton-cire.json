@@ -1,37 +1,50 @@
 [
 	{
-		 "componentName": "HeroDetail",
-		 "props": {
-			  "title": "Beton ciré",
-			  "img": "/img/beton-cire.webp",
-			  "alt": "beton cire geeft u een verfijnde uitstraling"
-		 }
+		"componentName": "HeroDetail",
+		"props": {
+			"title": "Beton ciré",
+			"text": "Met beton cire geeft u een verfijnde uitstraling aan uw kamer. Cire beton creëert enerzijds een strakke look, anderzijds brengt het een warme en aangename sfeer in huis. Beton ciré is stucwerk op basis van beton. Het wordt aangebracht in een dunne laag. Het product is zeer sterk, duurzaam en watervast. Beton cire kent talloze toepassingen, waardoor het op diverse plekken gebruikt kan worden. Er zijn een heel aantal redenen waarom u voor stucwerk beton ciré kunt kiezen.",
+			"img": "/img/beton-cire.webp",
+			"alt": "aan het stukadoren voor particlieren",
+			"primaryBtnContent": "Neem contact op!",
+			"primaryBtnLink": "/contact"
+		}
 	},
 	{
-		 "componentName": "TextImgSection",
-		 "props": {
-			  "text": "Some text for the TextImgSection component",
-			  "img": "/img/text-img-section.webp"
-		 }
+		"componentName": "TextImgSection",
+		"props": {
+			"title": "Stucwerk voor Grote Bouwprojecten",
+			"list": [
+				"Beton ciré heeft een strakke afwerking en een moderne uitstraling.",
+				"Cire beton is naadloos en daardoor zeer hygiënisch.",
+				"Beton cire is watervast, dus ook uitstekend geschikt voor natte ruimtes zoals keuken, badkamer en toilet / wc.",
+				"Stucwerk in beton cire is sterk en duurzaam.",
+				"Cire beton kan op verschillende ondergronden aangebracht worden zoals: hout, tegels, MDF, gips en cementdekvloer.",
+				"Beton ciré is geschikt voor zowel wanden, vloeren als plafonds."
+			],
+			"img": "/img/beton-cire-4.jpg",
+			"alt": "alt me"
+		}
 	},
 	{
 		 "componentName": "GalleryWithPopUp",
 		 "props": {
 			  "images": [
-					"/img/gallery1.webp",
-					"/img/gallery2.webp",
-					"/img/gallery3.webp"
+					"/img/beton-cire-1.jpg",
+					"/img/beton-cire-2.jpg",
+					"/img/beton-cire-3.jpg",
+					"/img/beton-cire.webp"
 			  ]
 		 }
 	},
 	{
-		 "componentName": "CtaSection",
-		 "props": {
-			"title": "Lorem ipsum dolor sit amet consectetur.",
+		"componentName": "CtaSection",
+		"props": {
+			"title": "Al overtuigt? neem dan gerust contact op.",
 			"text": [
-				"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem facilis vitae maxime quo."
+				"Neem vandaag nog contact met ons op voor een vrijblijvende offerte en laat ons uw droomruimte realiseren!"
 			],
-			"primaryBtnContent": "Huur mij in!",
+			"primaryBtnContent": "Neem contact op!",
 			"primaryBtnLink": "/contact"
 		}
 	}
